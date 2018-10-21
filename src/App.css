@@ -22,11 +22,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.button {
+  font-family: pacifico;
+  max-width: 200px;
+  padding: .3em .8em;
+  border: 1px solid rgba(0, 0, 0, .1);
+  margin: .2em;
+  background: linear-gradient(hsla(0, 0%, 100%, .2), transparent);
+  border-radius: .2em;
+  box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+  color: #000;
+  text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+  font-size: 125%;
+  line-height: 1.5;
+  position: relative;
 }

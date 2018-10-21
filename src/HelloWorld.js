@@ -3,7 +3,7 @@ import Vocab from './Vocab';
 
 class HelloWorld extends Component {
     render() {
-        Vocab.setLanguage("en")
+        Vocab.setLanguage("fr")
         return (
             <p>{Vocab.get("HelloWorld")}</p>
         );
